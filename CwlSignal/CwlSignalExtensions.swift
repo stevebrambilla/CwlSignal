@@ -19,6 +19,7 @@
 //
 
 import Foundation
+import CwlUtils
 
 extension SignalSender {
 	/// A convenience version of `send` that wraps a value in `Result.success` before sending

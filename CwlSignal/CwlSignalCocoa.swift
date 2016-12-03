@@ -19,6 +19,7 @@
 //
 
 import Foundation
+import CwlUtils
 
 /// Instances of `SignalActionTarget` can be used as the "target" of Cocoa "target-action" events and will emit the
 open class SignalActionTarget<T: AnyObject>: NSObject {

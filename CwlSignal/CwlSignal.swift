@@ -18,6 +18,7 @@
 //
 
 import Foundation
+import CwlUtils
 
 /// A composable one-way communication channel that delivers a sequence of `Result<T>` items to a `handler` function running in a potentially different execution context. Delivery is serial (FIFO) queuing as required.
 ///

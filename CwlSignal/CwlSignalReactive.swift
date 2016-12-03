@@ -19,6 +19,7 @@
 //
 
 import Foundation
+import CwlUtils
 
 extension Signal {
 	/// - Note: the [Reactive X operator "Create"](http://reactivex.io/documentation/operators/create.html) is considered unnecessary, given the `CwlSignal.Signal.generate` and `CwlSignal.Signal.create` methods.
